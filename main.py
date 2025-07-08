@@ -1,6 +1,7 @@
 # main.py
 
 from interface import tampilkan_menu, tampilkan_buah, tampilkan_keranjang, proses_pembelian
+from interface import cari_buah_kategori
 
 def main():
     while True:
@@ -17,6 +18,9 @@ def main():
             tampilkan_keranjang()
             print("\nTerima kasih telah berbelanja!")
             break
+        elif pilihan == "5":
+            cari_buah_kategori()
+
         elif pilihan == "0":
             print("Keluar dari program.")
             break

@@ -9,6 +9,7 @@ def tampilkan_menu():
     print("2. Beli buah")
     print("3. Lihat keranjang")
     print("4. Selesai & Cetak Struk")
+    print("5. Cari buah berdasarkan kategori")
     print("0. Keluar")
 
 def tampilkan_buah():
