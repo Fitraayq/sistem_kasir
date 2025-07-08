@@ -1,7 +1,7 @@
 # main.py
 
 from interface import tampilkan_menu, tampilkan_buah, tampilkan_keranjang, proses_pembelian
-from interface import cari_buah_kategori
+from logic import cari_buah_kategori
 
 def main():
     while True:
